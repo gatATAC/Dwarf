@@ -1,3 +1,6 @@
+WARNING: THIS IS NOT A THEME DEVELOPMENT, JUST THE ADAPTATION OF THE THEME TO MY PERSONAL NEEDS.
+ALWAYS REFER TO https://github.com/themondays/Dwarf
+
 # Dwarf Redmine Theme
 Public Version 1.0.0
 

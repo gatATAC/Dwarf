@@ -130,7 +130,7 @@ td.line-code pre {
 
 .controller-projects.action-show #header h1:before {
   font-family: Fontawesome;
-  content: "\f132";
+  content: "\f124";
   padding-right: 5px; }
 
 .controller-activities #header h1:before {
@@ -185,7 +185,7 @@ td.line-code pre {
 
 .controller-welcome #header h1:before {
   font-family: Fontawesome;
-  content: "\f015 ";
+  content: "\f124 ";
   padding-right: 5px;
   font-weight: 100; }
 
@@ -215,14 +215,14 @@ td.line-code pre {
  *
  */
 html {
-  background-color: #282828; }
+  background-color: azure; }
 
 /**
  * Sidebar Logotype
  */
 body {
   padding: 0;
-  background-color: #282828;
+  background-color: #89B7C5;
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center top; }
@@ -513,7 +513,7 @@ body.controller-welcome.action-index #wrapper3 #main {
 
 .controller-projects.action-show #header h1:before {
   font-family: Fontawesome;
-  content: "\f132";
+  content: "\f124";
   padding-right: 5px; }
 
 .controller-activities #header h1:before {
@@ -569,7 +569,7 @@ body.controller-welcome.action-index #wrapper3 #main {
 
 .controller-welcome #header h1:before {
   font-family: Fontawesome;
-  content: "\f015 ";
+  content: "\f124 ";
   padding-right: 5px;
   font-weight: 100; }
 
@@ -637,7 +637,7 @@ body.controller-welcome.action-index #wrapper3 #main {
   margin: 0; }
 
 #header {
-  background-color: #1b1b1b;
+  background-color: #89B7C5;
   border-color: #252525;
   padding: 0; }
   #header > h1 {
@@ -647,7 +647,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     margin: 0;
     clear: right;
     position: relative;
-    background-color: #202020;
+    background-color: beige;
     width: 27%;
     float: right;
     padding: 11px 1.2rem;
@@ -660,16 +660,17 @@ body.controller-welcome.action-index #wrapper3 #main {
       float: left; }
     #header #quick-search label {
       padding: 0px 10px;
-      background-color: #282828;
+      background-color: beige;
       margin: 1px 0 0;
       display: inline-block;
       line-height: 25px;
+      color: darkgrey;
       float: left; }
     #header #quick-search input {
       width: 40px;
       border: 1px solid #151515;
-      background: #282828;
-      color: #ddd;
+      background: beige;
+      color: darkgrey;
       border: 0;
       height: 25px;
       box-shadow: none;
@@ -683,26 +684,29 @@ body.controller-welcome.action-index #wrapper3 #main {
       margin-top: 1px; }
       #header #quick-search .chosen-container-single .chosen-single {
         border: none;
-        background: #101010;
+/*        background: #101010;*/
         border-radius: 0;
         box-shadow: none; }
       #header #quick-search .chosen-container-single .chosen-drop {
-        background: #0E0E0E;
+/*       background: #0E0E0E;*/
+	color: azure;
         border: none; }
     #header #quick-search .chosen-search input {
       background-image: none !important;
-      background-color: #151515;
+/*      background-color: #151515;*/
       border-radius: 0;
       width: 100%; }
       #header #quick-search .chosen-search input:focus {
         width: 100%; }
     #header #quick-search .chosen-results li {
-      color: #dcdcdc; }
+      color: #a9a9a9; }
   #header h1 {
     margin: 0 24px; }
-
+#header a {
+	color: #6ba0c2;
+}
 #top-menu {
-  background-color: #000;
+  background-color: #6EA9BA;
   font-size: 10px;
   position: relative;
   padding: 0;
@@ -726,7 +730,11 @@ body.controller-welcome.action-index #wrapper3 #main {
 
 #sidebar {
   width: 25%;
-  padding: 0 1.2rem 0 0; }
+/*  padding: 20px 1.2rem 0 0; */
+  background-color: gainsboro;
+  padding-left: 14px;
+} 
+
   #sidebar .contextual {
     display: block;
     clear: right;
@@ -796,7 +804,7 @@ body.controller-welcome.action-index #wrapper3 #main {
     color: #666; }
   #footer .bgl {
     padding: 20px;
-    background-color: #1b1b1b; }
+    background-color: #6EA9BA; }
   #footer .bgr::after {
     content: ' Theme by Jared Denison (themondays)';
     float: right; }
@@ -809,7 +817,7 @@ body.controller-welcome.action-index #wrapper3 #main {
 #main-menu {
   margin: 0 0 0 0;
   padding: 0 20px;
-  background-color: #272D2D;
+  background-color: #6EA9BA;
   position: static; }
   #main-menu > ul {
     min-height: 29px; }
@@ -1190,7 +1198,7 @@ select[multiple="multiple"] {
     text-decoration: underline; }
   .controller-issues .issue .issue-wrapper div.wiki a:link {
     text-decoration: underline;
-    color: #010101; }
+    color: #169; }
   .controller-issues .issue .issue-wrapper .attributes tr {
     border-bottom: 1px #ddd solid; }
   .controller-issues .issue .issue-wrapper .attributes th {
@@ -1358,8 +1366,8 @@ body #content p.author {
   font-size: 0.8rem; }
 
 .controller-issues #content .issue.details {
-  width: 50%;
-  float: left;
+  width: 100%;
+/*  float: left;*/
   margin-right: 1%;
   background: transparent;
   position: relative;
@@ -1439,8 +1447,8 @@ body #content p.author {
   padding: 1.2rem; }
 
 .controller-issues #content #history {
-  width: 49%;
-  float: left; }
+/*  width: 49%;
+  float: left; */}
 
 .controller-issues #content #history > *:nth-child(2) {
   margin-top: 0; }
@@ -1464,7 +1472,7 @@ body #content p.author {
 
 .splitcontentleft .news.box p,
 .splitcontentright .news.box p {
-  color: #010101;
+  color: #169;
   font-size: 18px;
   font-weight: 600; }
   .splitcontentleft .news.box p .summary, .splitcontentleft .news.box p i, .splitcontentleft .news.box p em, .splitcontentleft .news.box p .author,
@@ -1478,7 +1486,7 @@ body #content p.author {
 
 .splitcontentleft .news.box p a:first-child,
 .splitcontentright .news.box p a:first-child {
-  color: #010101; }
+  color: #169; }
 
 .splitcontentleft .news.box p a:last-child,
 .splitcontentright .news.box p a:last-child {
@@ -2010,7 +2018,7 @@ tr.open span.expander {
     left: 0;
     z-index: 1; }
   .controller-account.action-login #content {
-    background: #000 url(../images/splash/splash2.jpg) no-repeat center;
+    /* background: #000 url(../images/splash/splash2.jpg) no-repeat center; */
     position: relative;
     display: block;
     width: 100%;
@@ -2019,10 +2027,11 @@ tr.open span.expander {
   .controller-account.action-login #login-form form table {
     display: block;
     position: relative;
-    padding: 25px 28px;
-    background: url(../images/splash/splash2-overlay.jpg) no-repeat center;
+/*    padding: 25px 28px;*/
+    /* background: url(../images/splash/splash2-overlay.jpg) no-repeat center; */
+    background-color: dimgray;
     text-align: left;
-    width: 512px;
+/*    width: 512px;*/
     font-family: lucida grande,verdana;
     font-size: 14px;
     border-radius: 2px;
@@ -2359,7 +2368,7 @@ body #content .nodata {
     text-align: center; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #sidebar {
-    width: 30%;
+    width: 26%;
     padding: 20px;
     margin: 0; }
 
